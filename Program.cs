@@ -4,6 +4,7 @@
 Console.WriteLine("Nokia:");
 Smartphone nokia = new Nokia(numero: "1112341234", modelo: "Modelo 1", imei:"11111111", memoria: 64);
 nokia.Ligar();
+nokia.ReceberLigacao();
 nokia.InstalarAplicativo("Whatsapp");
 
 Console.WriteLine("\n---------------\n");
@@ -11,5 +12,6 @@ Console.WriteLine("\n---------------\n");
 // Testes com a Classe 'Iphone'
 Console.WriteLine("Iphone:");
 Smartphone iphone = new Iphone(numero: "55244466666", modelo: "Modelo 2", imei:"22222222", memoria: 128);
+iphone.Ligar();
 iphone.ReceberLigacao();
-iphone.InstalarAplicativo("Telegram");
+iphone.InstalarAplicativo("Instagram");
