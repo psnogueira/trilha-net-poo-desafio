@@ -2,12 +2,13 @@ namespace DesafioPOO.Models
 {
     public abstract class Smartphone
     {
+        // Propriedades comuns de todos os smartphones
         public string Numero { get; set; }
-
         private string Modelo { get; set; }
         private string IMEI { get; set; }
         private int Memoria { get; set; }
 
+        // Construtor base
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
